@@ -32,3 +32,9 @@ to look at the logs, open the file ```pyos.log ``` and there are all your logs
 --------
 
 <h5>the name 'SuperPyOS' belongs to ProTech IT Solutions, you are permitted to copy as long as you keep all attributions</h5>
+
+--------
+
+<h5>
+  the mechanism EN_LICE_ULOCK is a new thing, don't abuse it
+</h5>

@@ -1,3 +1,7 @@
+# the python module initialising security mechansim EN_LICE_ULOCK (ENCRYPTED_LICENCE_UNLOCK)
+#-------------------------------------------------------------------------------------------
+# COPYRIGHT 2020- 17lwinn
+
 import os
 import sys
 import logging

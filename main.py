@@ -20,7 +20,7 @@ elif os.getenv("DEBUG_PYOS") == "true":
   DEBUG_MODE = True
   
 #------------------------- LOGGING FILE-------
-logging.basicConfig(filename="pyos.log", level=logging.INFO)
+logging.basicConfig(filename="pyos.log", level=logging.INFO) # log path
 #---------------------------------------------
 
 now = datetime.now()
@@ -28,14 +28,14 @@ now = datetime.now()
 current_time = now.strftime("%H:%M:%S")
 
 #---------------------------------------------
-currentpath = os.getcwd()
+currentpath = os.getcwd() # get current path
 
 #----------------------------------------------------------------------------------------#
 
 #if DEBUG_MODE == "false":
   # print("beginning boot process...")
  
-  # command prompt starts here
+  # run licelock check 1
 licelock.antipiracy()
   
 logging.info("[" + current_time + "]" + ": OS started successfully")
