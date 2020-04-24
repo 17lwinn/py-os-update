@@ -7,6 +7,7 @@ import glob
 from time import *
 import logging
 from datetime import datetime
+import licelock
 
 
 # machine settings / enviroment paths
@@ -35,6 +36,7 @@ currentpath = os.getcwd()
   # print("beginning boot process...")
  
   # command prompt starts here
+licelock.antipiracy()
   
 logging.info("[" + current_time + "]" + ": OS started successfully")
 command = input(currentpath + "> ")
