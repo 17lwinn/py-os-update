@@ -13,10 +13,10 @@ print("")
 print("switch your OS here")
 print("")
 print("")
-print("1. switch execution path")
+# print("1. switch execution path")
 
 switcher = input("choose an option: ")
 
-if switcher == "1":
-  os.system("clear")
-  switcherpath = input("") # need to code something that'll switch to the folder and run the files there
+# if switcher == "1":
+  # os.system("clear")
+  # switcherpath = input("") # need to code something that'll switch to the folder and run the files there
