@@ -2,4 +2,3 @@ virtualenv
 pyvim
 ishell
 psutil 
-pandas
