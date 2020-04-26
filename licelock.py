@@ -14,7 +14,7 @@ now = datetime.now()
 current_time = now.strftime("%H:%M:%S")
 
 def antipiracy():
-  logging.warn("[" + current_time + "]" + ": this software utilises the EN_LICE_ULOCK mechanism")
+  logging.warn("[" + current_time + "]" + ": this software utilises the EN_LICE_ULOCK mechanism, which is in all its glory useless")
   sleep(2)
   f = open("LICENSE.txt", "r")
   sleep(2)
