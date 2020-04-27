@@ -2,3 +2,4 @@ virtualenv
 pyvim
 ishell
 psutil 
+pycrypto
