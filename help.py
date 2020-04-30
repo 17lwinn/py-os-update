@@ -18,5 +18,11 @@ def general():
   print("libraries to simulate general commands and applications. While about 25% relies ")
   print("on normal linux commands.")
   print("")
-  print("it was built to show people")
+  print("it was built to show people what a bit of code can turn into, the software is free")
+  print("of any hidden charges under the MIT license")
+  print("")
+  print("big thanks to Jonyk5 for always being there. :D")
+  print("--------------------------------------------------")
   
+def virtualenv():
+  os.system("clear")
