@@ -8,6 +8,7 @@ from time import *
 import logging
 from datetime import datetime
 import licelock
+import help
 
 
 # machine settings / enviroment paths
@@ -60,9 +61,12 @@ if command == "cmds":
     
   print("clear: clears screen")
   
-  print("network: configure your network")
+  print("network: configure your network BETA")
   
   print("exit: exit pyOS")
+  
+  print("help <command/topic>")
+  
   os.system("python3 main.py")
   
 if command == "ls":
@@ -139,4 +143,14 @@ if command == "exit":
   
 else:
   logging.error("[" + current_time + "]" + ": command " + command + " could not be found")
-os.system('python3 main.py')#this will go through the entire boot process again, the boot section should go into a seperate moduleb
+  
+# help topics
+
+if command == "help general":
+  help.general()
+  
+if command == "help virtualenv":
+  help.virtualenv()
+  
+# -------------
+os.system('python3 main.py')# this will go through the entire boot process again, the boot section should go into a seperate moduleb
