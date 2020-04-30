@@ -1,6 +1,0 @@
-!~the start of a nice process manager! 50% Xent 50% python~!
-!print "| NAME | RAM (%) | ID | STATUS? |"
-!print "--------------------------------"!
-!%#!/bin/bash
-pgrep -af python
-%

@@ -66,12 +66,13 @@ if command == "cmds":
   os.system("python3 main.py")
   
 if command == "ls":
-  xr = input("path>")
-  if xr == "":
-    print(str.join("   ",os.listdir(currentpath)))
-  else:
+  os.listdir(currentpath)
+  #xr = input("path>")
+  #if xr == "":
+  #  print(str.join("   ",os.listdir(currentpath)))
+  #else:
   
-    print(str.join("   ",os.listdir(currentpath + "/" + xr)))
+   # print(str.join("   ",os.listdir(currentpath + "/" + xr)))
   
 if command == "xen":
   os.system('python3 xencli.py')   
