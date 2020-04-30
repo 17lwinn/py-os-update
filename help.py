@@ -26,3 +26,6 @@ def general():
   
 def virtualenv():
   os.system("clear")
+  print("Virtualisation is hard, heavy duty work.")
+  print("")
+  print("we can't rewrite ")
