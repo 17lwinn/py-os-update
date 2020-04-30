@@ -28,4 +28,6 @@ def virtualenv():
   os.system("clear")
   print("Virtualisation is hard, heavy duty work.")
   print("")
-  print("we can't rewrite ")
+  print("we can't rewrite Qemu, that's diabolical! instead we use virtualenv that is integrated into python")
+  print("you can run the command virtualenv to see how to create a venv. We only get so much space in one")
+  print("terminal session")
